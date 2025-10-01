@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\TareaEFJ\\Api\\Api.csproj": {}
+    "/home/camper/TareaEFJ/Api/Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\TareaEFJ\\Api\\Api.csproj": {
+    "/home/camper/TareaEFJ/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\TareaEFJ\\Api\\Api.csproj",
+        "projectUniqueName": "/home/camper/TareaEFJ/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\julia\\TareaEFJ\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\TareaEFJ\\Api\\obj\\",
+        "projectPath": "/home/camper/TareaEFJ/Api/Api.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/TareaEFJ/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj"
+              "/home/camper/TareaEFJ/Application/Application.csproj": {
+                "projectPath": "/home/camper/TareaEFJ/Application/Application.csproj"
               },
-              "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\Infrastructure.csproj"
+              "/home/camper/TareaEFJ/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/camper/TareaEFJ/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -93,21 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj": {
+    "/home/camper/TareaEFJ/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj",
+        "projectUniqueName": "/home/camper/TareaEFJ/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\TareaEFJ\\Application\\obj\\",
+        "projectPath": "/home/camper/TareaEFJ/Application/Application.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/TareaEFJ/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -119,8 +119,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj"
+              "/home/camper/TareaEFJ/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/TareaEFJ/Domain/Domain.csproj"
               }
             }
           }
@@ -135,7 +135,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -148,6 +148,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             }
           },
           "imports": [
@@ -166,21 +170,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj": {
+    "/home/camper/TareaEFJ/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/camper/TareaEFJ/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\TareaEFJ\\Domain\\obj\\",
+        "projectPath": "/home/camper/TareaEFJ/Domain/Domain.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/TareaEFJ/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -204,7 +208,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -225,21 +229,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\Infrastructure.csproj": {
+    "/home/camper/TareaEFJ/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/camper/TareaEFJ/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\TareaEFJ\\Infrastructure\\obj\\",
+        "projectPath": "/home/camper/TareaEFJ/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/TareaEFJ/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -251,11 +255,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj"
+              "/home/camper/TareaEFJ/Application/Application.csproj": {
+                "projectPath": "/home/camper/TareaEFJ/Application/Application.csproj"
               },
-              "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj"
+              "/home/camper/TareaEFJ/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/TareaEFJ/Domain/Domain.csproj"
               }
             }
           }
@@ -270,7 +274,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -301,7 +305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

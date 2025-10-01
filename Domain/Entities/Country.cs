@@ -8,7 +8,7 @@ namespace Domain.Entities;
 
 public class Country
 {
-    public int Id { get; private set; }
+    public Guid Id { get; private set; }
     public string Name { get; private set; }
     public virtual ICollection<Region> Regions { get; set; } = new List<Region>();
     public Country() { }

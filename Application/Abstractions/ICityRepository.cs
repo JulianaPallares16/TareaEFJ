@@ -9,7 +9,7 @@ public interface ICityRepository
 {
     Task<City?> GetByIdAsync(Guid id, CancellationToken ct = default);
     Task<IReadOnlyList<City>> GetAllAsync(CancellationToken ct = default);
-    Task<IReadOnlyList<City>> GetPageAsync(int page, int size, string? q, CancellationToken ct = default);
+    Task<IReadOnlyList<City>> GetPagedAsync(int page, int size, string? q, CancellationToken ct = default);
     Task<int> CountAsync(string? q, CancellationToken ct = default);
     Task AddAsync(City city, CancellationToken ct = default);
     Task UpdateAsync(City cityy, CancellationToken ct = default);

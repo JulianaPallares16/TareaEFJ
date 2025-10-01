@@ -7,7 +7,7 @@ namespace Domain.Entities;
 
 public class Branch
 {
-    public int Id { get; private set; }
+    public Guid Id { get; private set; }
     public int NumeroComercial { get; private set; }
     public string Address { get; private set; } = null!;
     public string Email { get; private set; } = null!;

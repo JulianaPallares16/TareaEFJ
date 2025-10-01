@@ -7,7 +7,7 @@ namespace Domain.Entities;
 
 public class Company
 {
-    public int Id { get; private set; }
+    public Guid Id { get; private set; }
     public string Name { get; private set; }
     public string Nit { get; private set; }
     public string Address { get; private set; }

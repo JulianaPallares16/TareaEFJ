@@ -9,7 +9,7 @@ public interface IBranchRepository
 {
     Task<Branch?> GetByIdAsync(Guid id, CancellationToken ct = default);
     Task<IReadOnlyList<Branch>> GetAllAsync(CancellationToken ct = default);
-    Task<IReadOnlyList<Branch>> GetPageAsync(int page, int size, string? q, CancellationToken ct = default);
+    Task<IReadOnlyList<Branch>> GetPagedAsync(int page, int size, string? q, CancellationToken ct = default);
     Task<int> CountAsync(string? q, CancellationToken ct = default);
     Task AddAsync(Branch branch, CancellationToken ct = default);
     Task UpdateAsync(Branch branch, CancellationToken ct = default);
