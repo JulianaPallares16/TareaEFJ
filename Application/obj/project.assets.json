@@ -672,19 +672,19 @@
     ]
   },
   "packageFolders": {
-    "/home/camper/.nuget/packages/": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/camper/TareaEFJ/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/camper/TareaEFJ/Application/Application.csproj",
-      "packagesPath": "/home/camper/.nuget/packages/",
-      "outputPath": "/home/camper/TareaEFJ/Application/obj/",
+      "projectPath": "C:\\Users\\julia\\TareaEFJ\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julia\\TareaEFJ\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/camper/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -696,8 +696,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/camper/TareaEFJ/Domain/Domain.csproj": {
-              "projectPath": "/home/camper/TareaEFJ/Domain/Domain.csproj"
+            "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\julia\\TareaEFJ\\Domain\\Domain.csproj"
             }
           }
         }
@@ -712,7 +712,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -747,7 +747,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
