@@ -18,7 +18,7 @@ public class CompanyConfiguration : IEntityTypeConfiguration<Company>
                .IsRequired()
                .HasColumnType("varchar(120)");
 
-        builder.Property(com => com.Nit)
+              builder.Property(com => com.Nit)
                .IsRequired()
                .HasColumnType("varchar(120)");
 
