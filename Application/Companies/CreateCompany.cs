@@ -5,4 +5,4 @@ using System.Threading.Tasks;
 using MediatR;
 
 namespace Application.Companies;
-public sealed record CreateCompany(string Name, string Nit, string Address, string Address, string Email) : IRequest<Guid>;
+public sealed record CreateCompany(string Name, string Nit, string Address, string Email) : IRequest<Guid>;

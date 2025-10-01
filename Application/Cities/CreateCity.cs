@@ -4,5 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace Application.Regions;
-public sealed record CreateRegion(string Name) : IRequest<Guid>;
+namespace Application.Cities;
+public sealed record CreateCity(string Name) : IRequest<Guid>;
+  
