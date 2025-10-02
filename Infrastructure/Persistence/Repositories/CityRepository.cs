@@ -33,7 +33,7 @@ public class CityRepository : ICityRepository
             .ToListAsync(ct);
     }
 
-    public async Task<IReadOnlyList<City>> GetByRegionIdAsync(int regionId, CancellationToken ct = default)
+    public async Task<IReadOnlyList<City>> GetByRegionIdAsync(Guid regionId, CancellationToken ct = default)
     {
         return await _context.Cities
             .Where(c => c.RegionId == regionId)

@@ -33,7 +33,7 @@ public class CompanyRepository : ICompanyRepository
             .ToListAsync(ct);
     }
 
-    public async Task<IReadOnlyList<Company>> GetByCityIdAsync(int cityId, CancellationToken ct = default)
+    public async Task<IReadOnlyList<Company>> GetByCityIdAsync(Guid cityId, CancellationToken ct = default)
     {
         return await _context.Companies
             .Where(c => c.CityId == cityId)

@@ -25,7 +25,7 @@ public sealed class RegionRepository(AppDbContext db) : IRegionRepository
             .ToListAsync(ct);
     }
 
-    public async Task<IReadOnlyList<Region>> GetByCountryIdAsync(int countryId, CancellationToken ct = default)
+    public async Task<IReadOnlyList<Region>> GetByCountryIdAsync(Guid countryId, CancellationToken ct = default)
     {
         return await db.Regions
             .AsNoTracking()
